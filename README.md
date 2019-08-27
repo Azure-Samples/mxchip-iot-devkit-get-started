@@ -5,7 +5,7 @@ languages:
 products:
 - dotnet
 description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+urlFragment: "iot-devkit-get-started"
 ---
 
 # Official Microsoft Sample
