@@ -7,6 +7,7 @@ languages:
 products:
 - azure
 - azure-iot-hub
+name: "Azure IoT DevKit get started"
 urlFragment: "iot-devkit-get-started"
 ---
 
