@@ -98,8 +98,8 @@ This section describes how to create an IoT hub using the [Azure portal](https:/
 
    - **IoT Hub Name**: Enter a name for your hub. This name must be globally unique. If the name you enter is available, a green check mark appears.
 
-   > [IMPORTANT] 
-   > Because the IoT hub will be publicly discoverable as a DNS endpoint, be sure to avoid entering any sensitive or personally identifiable information when you name it.
+   > **[IMPORTANT] 
+   > Because the IoT hub will be publicly discoverable as a DNS endpoint, be sure to avoid entering any sensitive or personally identifiable information when you name it.**
 
    ![Create a hub in the Azure portal](media/iot-hub-include-create-hub/iot-hub-create-screen-basics-vs2019.png)
 
@@ -136,8 +136,8 @@ A device must be registered with your IoT hub before it can connect. In this qui
     az iot hub device-identity create --hub-name YourIoTHubName --device-id MyNodeDevice
     ```
 
-   > [NOTE]
-   > If you get an error running `device-identity`, install the [Azure IOT Extension for Azure CLI](https://github.com/Azure/azure-iot-cli-extension/blob/dev/README.md) for more details.
+   > **[NOTE]
+   > If you get an error running `device-identity`, install the [Azure IOT Extension for Azure CLI](https://github.com/Azure/azure-iot-cli-extension/blob/dev/README.md) for more details.**
   
 2. Run the following commands in Azure Cloud Shell to get the _device connection string_ for the device you just registered:
 
@@ -181,15 +181,15 @@ The DevKit connects to a device-specific endpoint on your IoT hub and sends temp
 
     ![Configuration UI](media/iot-hub-arduino-devkit-az3166-get-started/quickstarts/configuration-ui.png)
 
-    > [NOTE]
-    > The IoT DevKit only supports 2.4GHz network. Check [FAQ](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/#wi-fi-configuration) for more details.
+    > **[NOTE]
+    > The IoT DevKit only supports 2.4GHz network. Check [FAQ](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/#wi-fi-configuration) for more details.**
 
 7. The WiFi information and device connection string will be stored into the IoT DevKit when you see the result page.
 
     ![Configuration result](media/iot-hub-arduino-devkit-az3166-get-started/quickstarts/configuration-ui-result.png)
 
-    > [NOTE]
-    > After Wi-Fi is configured, your credentials will persist on the device for that connection, even if the device is unplugged.
+    > **[NOTE]
+    > After Wi-Fi is configured, your credentials will persist on the device for that connection, even if the device is unplugged.**
 
 8. The IoT DevKit reboots in a few seconds. On the DevKit screen, you see the IP address for the DevKit follows by the telemetry data including temperature and humidity value with message count send to Azure IoT Hub.
 
@@ -224,8 +224,8 @@ Follow these steps to prepare the development environment for the DevKit:
 
     ![Install Azure IoT Tools](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/install-azure-iot-tools.png)
 
-    > [NOTE]
-    > The Azure IoT Tools extension pack contains the [Azure IoT Device Workbench](https://aka.ms/iot-workbench) which is used to develop and debug on various IoT devkit devices. The [Azure IoT Hub Toolkit](https://aka.ms/iot-toolkit), also included with the Azure IoT Tools extension pack, is used to manage and interact with Azure IoT Hubs.
+    > **[NOTE]
+    > The Azure IoT Tools extension pack contains the [Azure IoT Device Workbench](https://aka.ms/iot-workbench) which is used to develop and debug on various IoT devkit devices. The [Azure IoT Hub Toolkit](https://aka.ms/iot-toolkit), also included with the Azure IoT Tools extension pack, is used to manage and interact with Azure IoT Hubs.**
 
 5. Configure VS Code with Arduino settings.
 
@@ -304,8 +304,8 @@ Instead of provisioning Azure IoT Hub and device from the Azure portal, you can 
 
     ![Provision command](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/provision.png)
 
-    > [NOTE]
-    > If you have not signed in Azure. Follow the pop-up notification for signing in.
+    > **[NOTE]
+    > If you have not signed in Azure. Follow the pop-up notification for signing in.**
 
 2. Select the subscription you want to use.
 
@@ -355,8 +355,8 @@ Instead of provisioning Azure IoT Hub and device from the Azure portal, you can 
 
 The DevKit reboots and starts running the code.
 
-> [NOTE]
-> If there is any errors or interruptions, you can always recover by running the command again.
+> **[NOTE]
+> If there is any errors or interruptions, you can always recover by running the command again.**
 
 ## Test the project
 
