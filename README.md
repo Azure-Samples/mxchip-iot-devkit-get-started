@@ -12,7 +12,7 @@ description: "This is the GetStarted tutorial for IoT DevKit, please follow the 
 urlFragment: "mxchip-iot-devkit-get-started"
 ---
 
-# GetStarted
+## GetStarted
 
 You can use the [MXChip IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/) to develop and prototype Internet of Things (IoT) solutions that take advantage of Microsoft Azure services. It includes an Arduino-compatible board with rich peripherals and sensors, an open-source board package, and a rich [sample gallery](https://microsoft.github.io/azure-iot-developer-kit/docs/projects/).
 
