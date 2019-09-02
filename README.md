@@ -7,7 +7,7 @@ languages:
 products:
 - azure
 - azure-iot-hub
-name: "Azure MXChip IoT DevKit get started"
+name: "Azure MXChip IoT DevKit Get Started"
 description: "This is the GetStarted tutorial for IoT DevKit, please follow the guide to run it in IoT Workbench."
 urlFragment: "mxchip-iot-devkit-get-started"
 ---
