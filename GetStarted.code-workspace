@@ -6,6 +6,10 @@
     ],
     "settings": {
         "IoTWorkbench.BoardId": "devkit",
-        "IoTWorkbench.DevicePath": "Device"
+        "IoTWorkbench.DevicePath": "Device",
+        "files.associations": {
+            "*.ps1": "powershell",
+            "new": "cpp"
+        }
     }
 }
